@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <h2>Admin Dashboard</h2>
+    <h3>Voting Details:</h3>
+    <ul>
+        {% for vote in votes %}
+        <li>{{ vote.name }} voted for {{ vote.candidate }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/results">View Election Results</a>
+</body>
+</html>

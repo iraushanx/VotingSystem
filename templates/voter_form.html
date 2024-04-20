@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Form</title>
+</head>
+<body>
+    <h2>Voter Form</h2>
+    <form action="/vote" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="voter_id">Voter ID:</label>
+        <input type="text" id="voter_id" name="voter_id"><br><br>
+        <label for="candidate">Select Candidate:</label>
+        <select name="candidate" id="candidate">
+            <option value="NARENDRA MODI">NARENDRA MODI</option>
+            <option value="RAHUL GANDHI">RAHUL GANDHI</option>
+            <option value="NOTA">NOTA</option>
+        </select><br><br>
+        <input type="submit" value="Vote">
+    </form>
+</body>
+</html>
