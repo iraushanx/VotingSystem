@@ -3,8 +3,8 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 # Dummy admin credentials
-ADMIN_ID = "9521524102"
-ADMIN_PASSWORD = "Raushan@2005"
+ADMIN_ID = "#yourNumber or ID"
+ADMIN_PASSWORD = "#Password"
 
 # Dummy data for storing votes
 votes = []
